@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Multiplication Table</title>
+  <link rel="icon" type="image/x-icon" href="Logo.png">
+
+</head>
+<body>
+   <!--Header-->
+  <div class="text">
+    <h1>ACCESSIBLE MULTIPLICATION TABLE</h1>
+    <p>-You can input a number that start with number 1 but not go beyond number 11.</p>
+  </div>
+  <!--Questions and Input-->
+  <div id="choicesForm">
+
+    <div id="tableButton1">
+      <label for="quantity" id="qtyId">1. Quantity:</label>
+      <input type="number" id="quantity" min="1" max="11">
+      <button id='btn' onclick="mTable('quantity', 'quantity', 1)">Submit</button>
+    </div>
+
+    <div id="tableButton2">
+      <label for="width" id="widthId">2. Width:</label>
+      <input type="number" id="width" min="1" max="11" >
+      <label for="length" id="lengthId">Length:</label>
+      <input type="number" id="length" min="1" max="11">
+      <button onclick="multiplicationTable('width', 'length')" id="btn2">Submit</button>
+      <div id="btn2"></div> 
+ 
+    </div>
+
+    <div id="tableButton3">
+      <label for="multiplicationTable">3. Multiplication table with perfect squared:</label>
+      <button onclick="mTable(11, 11, 0)">Submit</button>
+    </div>
+  </div>
+  <!--Output Storage or Answer-->
+  <div id="revealAns"></div>
+<script src="app.js"></script>
+</body>
+</html>

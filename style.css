@@ -1,0 +1,50 @@
+* {
+  color: rgb(14, 39, 61);
+}
+
+body {
+  background-image: url('math.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
+.text {
+  margin: 77px 0px 0px 39px;
+}
+
+h1 {
+  font-weight: bolder;
+  font-size: 40px;
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  font-weight: bolder;
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+#tableButton1 , #tableButton2, #tableButton3 {
+  margin: 10px 0px 0px 50px;
+}
+
+#choicesForm {
+  width: 50%;
+  border-right: 3px dotted black;
+  height: 85vh;
+  display: inline-block;
+}
+
+#revealAns {
+  display: inline-block;
+  width: 40%;
+  margin-left: 20px;
+  height: 85px;
+}
+
+button {
+  cursor: pointer;
+}
