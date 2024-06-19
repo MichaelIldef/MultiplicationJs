@@ -1,0 +1,44 @@
+body {
+    background-image: url("background.jpg");
+    background-size: cover;
+    padding-top: 20px;
+}
+.body   {
+    text-align: center;
+}
+h1 {
+    margin-top: 70px;
+    text-align: center;
+    color:rgb(12, 56, 114);
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    
+}
+table, tr,td {
+    padding: 5px;
+    border: solid 2px rgb(85, 84, 84);
+}
+td {
+    width: 20px;
+}
+button {
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    color: #082e2e;
+    background-color: rgb(96, 225, 235);
+}
+tr:nth-child(even) {
+    background-color: #c5f0f0;
+  }
+tr:nth-child(odd) {
+    background-color: rgb(96, 225, 235);
+  }
